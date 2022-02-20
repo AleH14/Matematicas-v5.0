@@ -7,7 +7,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>icons8_calculator.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icons8_calculator.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CircularProgressBar" Version="2.8.0.16" />
