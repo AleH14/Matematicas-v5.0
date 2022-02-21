@@ -305,6 +305,7 @@
             this.class19.Text = "Créditos";
             this.class19.TextColor = System.Drawing.Color.White;
             this.class19.UseVisualStyleBackColor = false;
+            this.class19.Click += new System.EventHandler(this.class19_Click);
             // 
             // segundoFormulario
             // 
@@ -332,6 +333,7 @@
             this.Name = "segundoFormulario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "9";
+            this.Load += new System.EventHandler(this.segundoFormulario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

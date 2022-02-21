@@ -9,67 +9,63 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-
 namespace Matematicas_v5._0
 {
-    public partial class segundoFormulario : Form
+    public partial class formularioCreditos : Form
     {
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
         private static extern IntPtr CreateRoundRectRgn
-      (
-      int nLeftRect,
-      int nTopRect,
-      int RightRect,
-      int nBottomRect,
-      int nWidthEllipse,
-      int nHeightEllipse
-      );
-
-        public segundoFormulario()
+     (
+     int nLeftRect,
+     int nTopRect,
+     int RightRect,
+     int nBottomRect,
+     int nWidthEllipse,
+     int nHeightEllipse);
+        public formularioCreditos()
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
         }
 
-        private void PictureBox1_Click(object sender, EventArgs e)
+        private void formularioCreditos_Load(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
             MessageBoxButtons botones = MessageBoxButtons.YesNo;
             DialogResult = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (DialogResult == DialogResult.Yes) {
+            if (DialogResult == DialogResult.Yes)
+            {
                 this.Dispose();
 
             }
 
+        }
 
-
-            
-       }
-
-        private void PictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Normal)
             {
                 WindowState = FormWindowState.Minimized;
 
             }
-            else if (WindowState == FormWindowState.Minimized) 
+            else if (WindowState == FormWindowState.Minimized)
             {
                 WindowState = FormWindowState.Normal;
             }
         }
 
-        private void segundoFormulario_Load(object sender, EventArgs e)
+        private void class11_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void class19_Click(object sender, EventArgs e)
-        {
-            formularioCreditos cambio = new formularioCreditos();
-            cambio.Show();
+            segundoFormulario cambioF = new segundoFormulario();
             this.Dispose();
+            cambioF.Show();
         }
     }
 }
