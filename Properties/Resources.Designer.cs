@@ -73,6 +73,26 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_atm {
+            get {
+                object obj = ResourceManager.GetObject("icons8_atm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_c_sharp_logo {
+            get {
+                object obj = ResourceManager.GetObject("icons8_c_sharp_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_calculator_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8_calculator_1", resourceCulture);
@@ -123,6 +143,16 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_divide {
+            get {
+                object obj = ResourceManager.GetObject("icons8_divide", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_minimize_window {
             get {
                 object obj = ResourceManager.GetObject("icons8_minimize_window", resourceCulture);
@@ -136,6 +166,66 @@ namespace Matematicas_v5._0.Properties {
         internal static System.Drawing.Bitmap icons8_minimize_window_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8_minimize_window_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_money {
+            get {
+                object obj = ResourceManager.GetObject("icons8_money", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_order_history {
+            get {
+                object obj = ResourceManager.GetObject("icons8_order_history", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_plus_1_year {
+            get {
+                object obj = ResourceManager.GetObject("icons8_plus_1_year", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_square_number {
+            get {
+                object obj = ResourceManager.GetObject("icons8_square_number", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_square_root_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_square_root_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_trigonometry {
+            get {
+                object obj = ResourceManager.GetObject("icons8_trigonometry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
