@@ -67,5 +67,10 @@ namespace Matematicas_v5._0
             this.Dispose();
             cambioF.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

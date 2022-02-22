@@ -89,6 +89,7 @@
             this.label2.Size = new System.Drawing.Size(243, 32);
             this.label2.TabIndex = 7;
             this.label2.Text = "Alejandro Javier Hernández Orellana\r\nHO221200\r\n";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // class11
             // 
