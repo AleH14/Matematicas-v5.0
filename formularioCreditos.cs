@@ -42,7 +42,7 @@ namespace Matematicas_v5._0
             DialogResult = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.Yes)
             {
-                this.Dispose();
+                Application.Exit();
 
             }
 
