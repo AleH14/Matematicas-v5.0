@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.ProgressBar1 = new CircularProgressBar.CircularProgressBar();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,6 +81,11 @@
             this.label1.Text = "Matemáticas v5.0";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -92,17 +97,13 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Cargando...";
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Matematicas_v5._0.Properties.Resources.icons8_calculator_80px_1;
-            this.pictureBox1.Location = new System.Drawing.Point(85, 292);
+            this.pictureBox1.Image = global::Matematicas_v5._0.Properties.Resources.Publicación_de_vídeo_cuadrado_1080x1080_px__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(29, 292);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(76, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(214, 87);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -133,8 +134,8 @@
 
         private CircularProgressBar.CircularProgressBar ProgressBar1;
         private Label label1;
-        private Label label2;
         private System.Windows.Forms.Timer timer1;
+        private Label label2;
         private PictureBox pictureBox1;
     }
 }

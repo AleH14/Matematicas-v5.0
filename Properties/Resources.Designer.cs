@@ -253,9 +253,29 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_universidaddonbosco {
+            get {
+                object obj = ResourceManager.GetObject("logo_universidaddonbosco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Negro {
             get {
                 object obj = ResourceManager.GetObject("Negro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Publicación_de_vídeo_cuadrado_1080x1080_px__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Publicación de vídeo cuadrado 1080x1080 px (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
