@@ -71,5 +71,19 @@ namespace Matematicas_v5._0
             cambio.Show();
             this.Dispose();
         }
+
+        private void class13_Click(object sender, EventArgs e)
+        {
+            ReglaDeCramer cambio = new ReglaDeCramer();
+            cambio.Show();
+            this.Dispose();
+        }
+
+        private void class15_Click(object sender, EventArgs e)
+        {
+            Herencia cambio = new Herencia();
+            cambio.Show();
+            this.Dispose();
+        }
     }
 }

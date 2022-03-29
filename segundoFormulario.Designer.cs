@@ -179,6 +179,7 @@
             this.class13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.class13.TextColor = System.Drawing.Color.White;
             this.class13.UseVisualStyleBackColor = false;
+            this.class13.Click += new System.EventHandler(this.class13_Click);
             // 
             // class14
             // 
@@ -221,6 +222,7 @@
             this.class15.Text = "Herencia";
             this.class15.TextColor = System.Drawing.Color.White;
             this.class15.UseVisualStyleBackColor = false;
+            this.class15.Click += new System.EventHandler(this.class15_Click);
             // 
             // class16
             // 
