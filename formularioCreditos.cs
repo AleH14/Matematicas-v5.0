@@ -30,15 +30,13 @@ namespace Matematicas_v5._0
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
         }
 
-        private void formularioCreditos_Load(object sender, EventArgs e)
+        private void FormularioCreditos_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
-
-            MessageBoxButtons botones = MessageBoxButtons.YesNo;
             DialogResult = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.Yes)
             {
@@ -48,7 +46,7 @@ namespace Matematicas_v5._0
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void PictureBox2_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Normal)
             {
@@ -61,21 +59,13 @@ namespace Matematicas_v5._0
             }
         }
 
-        private void class11_Click(object sender, EventArgs e)
+        private void Class11_Click(object sender, EventArgs e)
         {
-            segundoFormulario cambioF = new segundoFormulario();
+            segundoFormulario cambioF = new();
             this.Dispose();
             cambioF.Show();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

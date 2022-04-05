@@ -35,9 +35,8 @@ namespace Matematicas_v5._0
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBoxButtons botones = MessageBoxButtons.YesNo;
             DialogResult = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.Yes)
             {
@@ -46,7 +45,7 @@ namespace Matematicas_v5._0
             }
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void PictureBox2_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Normal)
             {
@@ -59,33 +58,33 @@ namespace Matematicas_v5._0
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void class11_Click(object sender, EventArgs e)
+        private void Class11_Click(object sender, EventArgs e)
         {
-            segundoFormulario cambioF = new segundoFormulario();
+            segundoFormulario cambioF = new();
             this.Dispose();
             cambioF.Show();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void TextBox2_TextChanged(object sender, EventArgs e)
         {
                     }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void TextBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void class12_Click(object sender, EventArgs e)
+        private void Class12_Click(object sender, EventArgs e)
         {
 
             //validamos la entrada 
@@ -195,8 +194,7 @@ namespace Matematicas_v5._0
                 return;
             }
 
-            double x, y;
-            Cramer(x1, y1, r1, x2, y2, r2, out y, out x);
+            Cramer(x1, y1, r1, x2, y2, r2, out double y, out double x);
 
 
             textX.Text = x.ToString();
@@ -204,11 +202,11 @@ namespace Matematicas_v5._0
 
         }
 
-        private void textX2_TextChanged(object sender, EventArgs e)
+        private void TextX2_TextChanged(object sender, EventArgs e)
         {
           
         }
-        private void Cramer(double x1, double y1, double r1, double x2, double y2, double r2, out double y, out double x)
+        private static void Cramer(double x1, double y1, double r1, double x2, double y2, double r2, out double y, out double x)
         { 
             double resul1,resul2, resul3;
             resul1 = (x1 * y2) - (y1 * x2);
@@ -218,12 +216,7 @@ namespace Matematicas_v5._0
             x = Math.Round(resul2 / resul1,2);
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void class13_Click(object sender, EventArgs e)
+        private void Class13_Click(object sender, EventArgs e)
         {
             textX1.Text = "";
             textY1.Text = "";

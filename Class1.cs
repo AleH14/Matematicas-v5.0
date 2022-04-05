@@ -77,9 +77,9 @@ namespace Matematicas_v5._0
         }
 
         //Methods
-        private GraphicsPath GetFigurePath(Rectangle rect, int radius)
+        private static GraphicsPath GetFigurePath(Rectangle rect, int radius)
         {
-            GraphicsPath path = new GraphicsPath();
+            GraphicsPath path = new();
             float curveSize = radius * 2F;
 
             path.StartFigure();
@@ -104,22 +104,20 @@ namespace Matematicas_v5._0
 
             if (borderRadius > 2) //Rounded button
             {
-                using (GraphicsPath pathSurface = GetFigurePath(rectSurface, borderRadius))
-                using (GraphicsPath pathBorder = GetFigurePath(rectBorder, borderRadius - borderSize))
-                using (Pen penSurface = new Pen(this.Parent.BackColor, smoothSize))
-                using (Pen penBorder = new Pen(borderColor, borderSize))
-                {
-                    pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                    //Button surface
-                    this.Region = new Region(pathSurface);
-                    //Draw surface border for HD result
-                    pevent.Graphics.DrawPath(penSurface, pathSurface);
+                using GraphicsPath pathSurface = GetFigurePath(rectSurface, borderRadius);
+                using GraphicsPath pathBorder = GetFigurePath(rectBorder, borderRadius - borderSize);
+                using Pen penSurface = new(this.Parent.BackColor, smoothSize);
+                using Pen penBorder = new(borderColor, borderSize);
+                pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+                //Button surface
+                this.Region = new Region(pathSurface);
+                //Draw surface border for HD result
+                pevent.Graphics.DrawPath(penSurface, pathSurface);
 
-                    //Button border                    
-                    if (borderSize >= 1)
-                        //Draw control border
-                        pevent.Graphics.DrawPath(penBorder, pathBorder);
-                }
+                //Button border                    
+                if (borderSize >= 1)
+                    //Draw control border
+                    pevent.Graphics.DrawPath(penBorder, pathBorder);
             }
             else //Normal button
             {
@@ -129,11 +127,9 @@ namespace Matematicas_v5._0
                 //Button border
                 if (borderSize >= 1)
                 {
-                    using (Pen penBorder = new Pen(borderColor, borderSize))
-                    {
-                        penBorder.Alignment = PenAlignment.Inset;
-                        pevent.Graphics.DrawRectangle(penBorder, 0, 0, this.Width - 1, this.Height - 1);
-                    }
+                    using Pen penBorder = new(borderColor, borderSize);
+                    penBorder.Alignment = PenAlignment.Inset;
+                    pevent.Graphics.DrawRectangle(penBorder, 0, 0, this.Width - 1, this.Height - 1);
                 }
             }
         }

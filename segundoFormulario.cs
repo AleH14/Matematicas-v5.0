@@ -35,7 +35,7 @@ namespace Matematicas_v5._0
         private void PictureBox1_Click(object sender, EventArgs e)
         {
            
-            MessageBoxButtons botones = MessageBoxButtons.YesNo;
+            
             DialogResult = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.Yes) {
                 Application.Exit();
@@ -60,28 +60,59 @@ namespace Matematicas_v5._0
             }
         }
 
-        private void segundoFormulario_Load(object sender, EventArgs e)
+        private void SegundoFormulario_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void class19_Click(object sender, EventArgs e)
+        private void Class19_Click(object sender, EventArgs e)
         {
-            formularioCreditos cambio = new formularioCreditos();
+            formularioCreditos cambio = new();
             cambio.Show();
             this.Dispose();
         }
 
-        private void class13_Click(object sender, EventArgs e)
+        private void Class13_Click(object sender, EventArgs e)
         {
-            ReglaDeCramer cambio = new ReglaDeCramer();
+            ReglaDeCramer cambio = new();
             cambio.Show();
             this.Dispose();
         }
 
-        private void class15_Click(object sender, EventArgs e)
+        private void Class15_Click(object sender, EventArgs e)
         {
-            Herencia cambio = new Herencia();
+            Herencia cambio = new();
+            cambio.Show();
+            this.Dispose();
+        }
+
+        private void Class12_Click(object sender, EventArgs e)
+        {
+            AngulosAgudo cambio = new();
+            cambio.Show();
+            this.Dispose();
+            
+            
+        }
+
+        private void Class16_Click(object sender, EventArgs e)
+        {
+            MainForm cambio = new();
+            cambio.Show();
+            this.Dispose();
+
+        }
+
+        private void Class14_Click(object sender, EventArgs e)
+        {
+            Cajero cambio = new();
+            cambio.Show();
+            this.Dispose();
+        }
+
+        private void Class17_Click(object sender, EventArgs e)
+        {
+            Mcm cambio = new();
             cambio.Show();
             this.Dispose();
         }

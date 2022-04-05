@@ -35,9 +35,8 @@ namespace Matematicas_v5._0
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBoxButtons botones = MessageBoxButtons.YesNo;
             DialogResult = MessageBox.Show("¿Desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult == DialogResult.Yes)
             {
@@ -47,7 +46,7 @@ namespace Matematicas_v5._0
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void PictureBox2_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Normal)
             {
@@ -60,29 +59,15 @@ namespace Matematicas_v5._0
             }
         }
 
-        private void class11_Click(object sender, EventArgs e)
+        private void Class11_Click(object sender, EventArgs e)
         {
-            segundoFormulario cambioF = new segundoFormulario();
+            segundoFormulario cambioF = new();
             this.Dispose();
             cambioF.Show();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void class12_Click(object sender, EventArgs e)
+        private void Class12_Click(object sender, EventArgs e)
         {
 
             //validamos la entrada 
@@ -103,14 +88,13 @@ namespace Matematicas_v5._0
                 return;
             }
 
-            double juan, luis, rosa, abogado;
-            Herenci(x1,out juan,out luis,out rosa,out abogado);
+            Herenci(x1, out double juan, out double luis, out double rosa, out double abogado);
             textJuan.Text = juan.ToString();
             textLuis.Text = luis.ToString();
             textRosa.Text = rosa.ToString();
             textAboga.Text = abogado.ToString();
         }
-        private void Herenci(double x1, out double juan,out  double luis,out  double rosa, out double abogado)
+        private static void Herenci(double x1, out double juan,out  double luis,out  double rosa, out double abogado)
         {
             juan = Math.Round(x1 / 3, 2);
             luis = Math.Round((4 * x1) / 9, 2);
@@ -118,12 +102,12 @@ namespace Matematicas_v5._0
             abogado = Math.Round((juan*0.05)+(luis*0.05)+(rosa*0.03));
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        private void Label8_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void class13_Click(object sender, EventArgs e)
+        private void Class13_Click(object sender, EventArgs e)
         {
             textHere.Text = "";
             textRosa.Text = "";

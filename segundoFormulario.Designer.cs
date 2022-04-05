@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(segundoFormulario));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -157,6 +158,7 @@
             this.class12.Text = "Ángulos Agudos";
             this.class12.TextColor = System.Drawing.Color.White;
             this.class12.UseVisualStyleBackColor = false;
+            this.class12.Click += new System.EventHandler(this.Class12_Click);
             // 
             // class13
             // 
@@ -179,7 +181,7 @@
             this.class13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.class13.TextColor = System.Drawing.Color.White;
             this.class13.UseVisualStyleBackColor = false;
-            this.class13.Click += new System.EventHandler(this.class13_Click);
+            this.class13.Click += new System.EventHandler(this.Class13_Click);
             // 
             // class14
             // 
@@ -201,6 +203,7 @@
             this.class14.Text = "Cajero del banco";
             this.class14.TextColor = System.Drawing.Color.White;
             this.class14.UseVisualStyleBackColor = false;
+            this.class14.Click += new System.EventHandler(this.Class14_Click);
             // 
             // class15
             // 
@@ -222,7 +225,7 @@
             this.class15.Text = "Herencia";
             this.class15.TextColor = System.Drawing.Color.White;
             this.class15.UseVisualStyleBackColor = false;
-            this.class15.Click += new System.EventHandler(this.class15_Click);
+            this.class15.Click += new System.EventHandler(this.Class15_Click);
             // 
             // class16
             // 
@@ -244,6 +247,7 @@
             this.class16.Text = "Año Bisiesto";
             this.class16.TextColor = System.Drawing.Color.White;
             this.class16.UseVisualStyleBackColor = false;
+            this.class16.Click += new System.EventHandler(this.Class16_Click);
             // 
             // class17
             // 
@@ -265,6 +269,7 @@
             this.class17.Text = " El M.C.M";
             this.class17.TextColor = System.Drawing.Color.White;
             this.class17.UseVisualStyleBackColor = false;
+            this.class17.Click += new System.EventHandler(this.Class17_Click);
             // 
             // class18
             // 
@@ -307,7 +312,7 @@
             this.class19.Text = "Créditos";
             this.class19.TextColor = System.Drawing.Color.White;
             this.class19.UseVisualStyleBackColor = false;
-            this.class19.Click += new System.EventHandler(this.class19_Click);
+            this.class19.Click += new System.EventHandler(this.Class19_Click);
             // 
             // segundoFormulario
             // 
@@ -332,10 +337,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "segundoFormulario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "9";
-            this.Load += new System.EventHandler(this.segundoFormulario_Load);
+            this.Load += new System.EventHandler(this.SegundoFormulario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Herencia));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.class11 = new Matematicas_v5._0.Class1();
@@ -53,6 +54,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.class13 = new Matematicas_v5._0.Class1();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -69,7 +73,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(32, 32);
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -79,7 +83,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(31, 32);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // class11
             // 
@@ -101,7 +105,7 @@
             this.class11.Text = "Volver";
             this.class11.TextColor = System.Drawing.Color.White;
             this.class11.UseVisualStyleBackColor = false;
-            this.class11.Click += new System.EventHandler(this.class11_Click);
+            this.class11.Click += new System.EventHandler(this.Class11_Click);
             // 
             // label1
             // 
@@ -114,15 +118,10 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Kristen ITC", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
-            this.label2.Location = new System.Drawing.Point(301, 9);
+            this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 40);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Herencia";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 37;
             // 
             // textHere
             // 
@@ -135,19 +134,14 @@
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
-            this.label3.Location = new System.Drawing.Point(125, 114);
+            this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(262, 27);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "La herencia asciende a $";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.TabIndex = 36;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Matematicas_v5._0.Properties.Resources.luis;
+            this.pictureBox3.Image = global::Matematicas_v5._0.Properties.Resources.hombre_39;
             this.pictureBox3.Location = new System.Drawing.Point(25, 182);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(158, 192);
@@ -157,7 +151,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Matematicas_v5._0.Properties.Resources.juan;
+            this.pictureBox4.Image = global::Matematicas_v5._0.Properties.Resources.hombre_41;
             this.pictureBox4.Location = new System.Drawing.Point(224, 205);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(143, 169);
@@ -167,10 +161,10 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Matematicas_v5._0.Properties.Resources.rosa;
-            this.pictureBox5.Location = new System.Drawing.Point(404, 219);
+            this.pictureBox5.Image = global::Matematicas_v5._0.Properties.Resources._8466bde73ad1f154cc6fda954f7ba589;
+            this.pictureBox5.Location = new System.Drawing.Point(404, 205);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(160, 155);
+            this.pictureBox5.Size = new System.Drawing.Size(160, 169);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 18;
             this.pictureBox5.TabStop = false;
@@ -207,15 +201,10 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
-            this.label4.Location = new System.Drawing.Point(82, 377);
+            this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 27);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Luis";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 35;
             // 
             // label6
             // 
@@ -241,7 +230,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Matematicas_v5._0.Properties.Resources.abogado;
+            this.pictureBox6.Image = global::Matematicas_v5._0.Properties.Resources.ca0b086fb63eeda038b39bf5c7d51349;
             this.pictureBox6.Location = new System.Drawing.Point(634, 182);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(143, 192);
@@ -290,7 +279,7 @@
             this.class12.Text = "Calcular";
             this.class12.TextColor = System.Drawing.Color.White;
             this.class12.UseVisualStyleBackColor = false;
-            this.class12.Click += new System.EventHandler(this.class12_Click);
+            this.class12.Click += new System.EventHandler(this.Class12_Click);
             // 
             // label8
             // 
@@ -302,7 +291,7 @@
             this.label8.Size = new System.Drawing.Size(22, 27);
             this.label8.TabIndex = 30;
             this.label8.Text = "$";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.label8.Click += new System.EventHandler(this.Label8_Click);
             // 
             // label9
             // 
@@ -350,14 +339,48 @@
             this.class13.ForeColor = System.Drawing.Color.White;
             this.class13.Image = global::Matematicas_v5._0.Properties.Resources.icons8_broom;
             this.class13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.class13.Location = new System.Drawing.Point(678, 114);
+            this.class13.Location = new System.Drawing.Point(678, 111);
             this.class13.Name = "class13";
-            this.class13.Size = new System.Drawing.Size(135, 34);
+            this.class13.Size = new System.Drawing.Size(121, 34);
             this.class13.TabIndex = 34;
             this.class13.Text = "Limpiar";
             this.class13.TextColor = System.Drawing.Color.White;
             this.class13.UseVisualStyleBackColor = false;
-            this.class13.Click += new System.EventHandler(this.class13_Click);
+            this.class13.Click += new System.EventHandler(this.Class13_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
+            this.label12.Location = new System.Drawing.Point(75, 377);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(56, 27);
+            this.label12.TabIndex = 38;
+            this.label12.Text = "Luis";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Kristen ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
+            this.label13.Location = new System.Drawing.Point(126, 114);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(261, 27);
+            this.label13.TabIndex = 39;
+            this.label13.Text = "La herencia ascienda a $";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Kristen ITC", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
+            this.label14.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.label14.Location = new System.Drawing.Point(330, 33);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(153, 40);
+            this.label14.TabIndex = 40;
+            this.label14.Text = "Herencia";
             // 
             // Herencia
             // 
@@ -365,6 +388,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(825, 562);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.class13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -391,6 +417,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Herencia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Herencia";
@@ -433,5 +460,8 @@
         private Label label10;
         private Label label11;
         private Class1 class13;
+        private Label label12;
+        private Label label13;
+        private Label label14;
     }
 }

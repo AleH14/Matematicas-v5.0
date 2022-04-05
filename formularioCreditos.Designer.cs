@@ -47,7 +47,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(32, 32);
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -57,7 +57,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(31, 32);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // class11
             // 
@@ -79,18 +79,17 @@
             this.class11.Text = "Volver";
             this.class11.TextColor = System.Drawing.Color.White;
             this.class11.UseVisualStyleBackColor = false;
-            this.class11.Click += new System.EventHandler(this.class11_Click);
+            this.class11.Click += new System.EventHandler(this.Class11_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Matematicas_v5._0.Properties.Resources.Copia_de_Plan_de_trabajo_y_plan_de_contingencia;
-            this.pictureBox3.Location = new System.Drawing.Point(-22, 149);
+            this.pictureBox3.Location = new System.Drawing.Point(65, 156);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(844, 330);
+            this.pictureBox3.Size = new System.Drawing.Size(678, 323);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -117,7 +116,7 @@
             this.Name = "formularioCreditos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formularioCreditos";
-            this.Load += new System.EventHandler(this.formularioCreditos_Load);
+            this.Load += new System.EventHandler(this.FormularioCreditos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

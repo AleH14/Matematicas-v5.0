@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReglaDeCramer));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -64,7 +65,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(32, 32);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -74,7 +75,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(31, 32);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // label1
             // 
@@ -126,7 +127,7 @@
             this.class11.Text = "Volver";
             this.class11.TextColor = System.Drawing.Color.White;
             this.class11.UseVisualStyleBackColor = false;
-            this.class11.Click += new System.EventHandler(this.class11_Click);
+            this.class11.Click += new System.EventHandler(this.Class11_Click);
             // 
             // textR1
             // 
@@ -136,7 +137,7 @@
             this.textR1.Name = "textR1";
             this.textR1.Size = new System.Drawing.Size(35, 35);
             this.textR1.TabIndex = 11;
-            this.textR1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textR1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // textY1
             // 
@@ -157,7 +158,7 @@
             this.textX1.Size = new System.Drawing.Size(37, 35);
             this.textX1.TabIndex = 13;
             this.textX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textX1.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textX1.TextChanged += new System.EventHandler(this.TextBox3_TextChanged);
             // 
             // textR2
             // 
@@ -187,7 +188,7 @@
             this.textX2.Size = new System.Drawing.Size(37, 35);
             this.textX2.TabIndex = 16;
             this.textX2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textX2.TextChanged += new System.EventHandler(this.textX2_TextChanged);
+            this.textX2.TextChanged += new System.EventHandler(this.TextX2_TextChanged);
             // 
             // class12
             // 
@@ -209,7 +210,7 @@
             this.class12.Text = "Calcular";
             this.class12.TextColor = System.Drawing.Color.White;
             this.class12.UseVisualStyleBackColor = false;
-            this.class12.Click += new System.EventHandler(this.class12_Click);
+            this.class12.Click += new System.EventHandler(this.Class12_Click);
             // 
             // textY
             // 
@@ -265,16 +266,7 @@
             this.label4.Text = "Y=";
             // 
             // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Kristen ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(213)))), ((int)(((byte)(219)))));
-            this.label5.Location = new System.Drawing.Point(223, 249);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 22);
-            this.label5.TabIndex = 23;
-            this.label5.Text = "X=";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+
             // 
             // class13
             // 
@@ -296,7 +288,7 @@
             this.class13.Text = "Limpiar";
             this.class13.TextColor = System.Drawing.Color.White;
             this.class13.UseVisualStyleBackColor = false;
-            this.class13.Click += new System.EventHandler(this.class13_Click);
+            this.class13.Click += new System.EventHandler(this.Class13_Click);
             // 
             // pictureBox5
             // 
@@ -335,6 +327,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ReglaDeCramer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReglaDeCramer";

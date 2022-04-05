@@ -83,9 +83,19 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap abogado {
+        internal static System.Drawing.Bitmap _8466bde73ad1f154cc6fda954f7ba589 {
             get {
-                object obj = ResourceManager.GetObject("abogado", resourceCulture);
+                object obj = ResourceManager.GetObject("8466bde73ad1f154cc6fda954f7ba589", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ca0b086fb63eeda038b39bf5c7d51349 {
+            get {
+                object obj = ResourceManager.GetObject("ca0b086fb63eeda038b39bf5c7d51349", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +113,26 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2022_04_02_173522 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2022-04-02 173522", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2022_04_02_1735221 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2022-04-02 1735221", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Copia_de_Plan_de_trabajo_y_plan_de_contingencia {
             get {
                 object obj = ResourceManager.GetObject("Copia de Plan de trabajo y plan de contingencia", resourceCulture);
@@ -113,9 +143,39 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap d990eb5d_81b3_42f0_a684_7fdcddfc9956_900_900 {
+            get {
+                object obj = ResourceManager.GetObject("d990eb5d-81b3-42f0-a684-7fdcddfc9956_900_900", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap giphy {
             get {
                 object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hombre_39 {
+            get {
+                object obj = ResourceManager.GetObject("hombre-39", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hombre_41 {
+            get {
+                object obj = ResourceManager.GetObject("hombre-41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +383,9 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap juan {
+        internal static System.Drawing.Bitmap images {
             get {
-                object obj = ResourceManager.GetObject("juan", resourceCulture);
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,16 +396,6 @@ namespace Matematicas_v5._0.Properties {
         internal static System.Drawing.Bitmap logo_universidaddonbosco {
             get {
                 object obj = ResourceManager.GetObject("logo_universidaddonbosco", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap luis {
-            get {
-                object obj = ResourceManager.GetObject("luis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +423,9 @@ namespace Matematicas_v5._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rosa {
+        internal static System.Drawing.Bitmap Publicación_de_vídeo_cuadrado_1080x1080_px__2_1 {
             get {
-                object obj = ResourceManager.GetObject("rosa", resourceCulture);
+                object obj = ResourceManager.GetObject("Publicación de vídeo cuadrado 1080x1080 px (2)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
